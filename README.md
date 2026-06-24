@@ -5,7 +5,7 @@ TikTok canlı yayımları ilə inteqrasiya olunmuş, izləyicilərin göndərdiy
 ---
 
 ## 📺 Demo Video
-https://streamable.com/so1a5z
+https://streamable.com/x8cyx0
 ---
 
 ## ✨ Özəlliklər
