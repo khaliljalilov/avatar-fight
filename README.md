@@ -1,72 +1,125 @@
 # Avatar Fight: Chaos Arena
 
-TikTok canlı yayımları ilə inteqrasiya olunmuş, izləyicilərin göndərdiyi hədiyyələr və reaksiyalar əsasında real vaxtda (real-time) ekranda döyüşən canvas oyunu. Layihə React (Vite) və Node.js (Socket.io) üzərində qurulub.
+A real-time interactive battle arena integrated with TikTok Live streams where audience interactions directly affect gameplay.
+
+Built with React (Vite), Node.js, Socket.io, and HTML5 Canvas.
 
 ---
 
-## 📺 Demo Video
+## 🎥 Demo
+
+Demo Video:
 https://streamable.com/x8cyx0
----
-
-## ✨ Özəlliklər
-
-* **Real-Time Əlaqə:** Socket.io ilə backend və frontend arasında milisaniyəlik məlumat ötürülməsi.
-* **TikTok İnteqrasiyası:** Canlı yayımdakı hədiyyə, təqib və şərhlərin oyuna dinamik daxil edilməsi.
-* **İdarəetmə Paneli:** Yayımçının istənilən istifadəçi adını yazıb yayıma qoşula biləcəyi admin interfeysi.
-* **Dinamik Canvas:** Şuriken, helikopter və əjdaha kimi obyektlərin vizual effektlərlə idarə olunması.
 
 ---
 
-## 📂 Layihə Strukturu
+## 🚀 Features
 
+* **Real-Time Communication**
+  Implemented bi-directional communication using Socket.io for instant game updates.
+
+* **TikTok Live Integration**
+  Processes live interactions including gifts, follows, and comments and converts them into in-game events.
+
+* **Interactive Control Panel**
+  Allows streamers to connect to any active TikTok live session through an admin interface.
+
+* **Canvas-Based Rendering Engine**
+  Built dynamic visual effects and game mechanics using HTML5 Canvas.
+
+* **Performance Optimization**
+  Improved rendering efficiency and state management for smoother gameplay.
+
+---
+
+## 🧱 Project Structure
+
+```bash
 avatar-fight/
-
+│
 ├── chaos-arena/       # Frontend (React + Vite)
-
 └── chaos-backend/     # Backend (Node.js + Socket.io)
+```
 
-🛠️ Quraşdırma və İşə Salma
+---
 
-1. Layihəni Klonlayın
-   
-Bash
+## 🛠 Tech Stack
 
-git clone [https://github.com/khaliljalilov/avatar-fight.git](https://github.com/khaliljalilov/avatar-fight.git)
+### Frontend
 
+* React.js
+* Vite
+* HTML5 Canvas
+
+### Backend
+
+* Node.js
+* Express.js
+* Socket.io
+
+### Tools
+
+* Git
+* REST APIs
+
+---
+
+## ⚙ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/khaliljalilov/avatar-fight.git
 cd avatar-fight
+```
 
-3. Backend-i Başladın
-   
-Bash
+### Run Backend
 
+```bash
 cd chaos-backend
-
 npm install
-
 node server.js
+```
 
-Backend http://localhost:3001 portunda işləyir.
+Backend runs on:
 
+```bash
+http://localhost:3001
+```
 
+### Run Frontend
 
-5. Frontend-i Başladın
-
-Bash
-
+```bash
 cd ../chaos-arena
-
 npm install
-
 npm run dev
+```
 
-Frontend brauzerdə http://localhost:5173 portunda işləyir.
+Frontend runs on:
 
+```bash
+http://localhost:5173
+```
 
-🎮 İstifadə Qaydası
-Həm backend, həm də frontend layihələrini yuxarıdakı qaydada işə salın.
+---
 
-Brauzerdə oyunu açın və sol üstdəki İdarəetmə Paneli düyməsinə klikləyin.
+## 🎮 Usage
 
-Aktiv olan hər hansı bir TikTok istifadəçi adını daxil edin və Qoşul düyməsini sıxın.
+1. Start backend and frontend servers.
+2. Open the application in your browser.
+3. Click the Control Panel button.
+4. Enter an active TikTok username.
+5. Watch audience interactions trigger live gameplay events.
 
-Yayımda atılan hədiyyələrə uyğun olaraq ekrandakı döyüşü izləyin.
+---
+
+## 💡 Future Improvements
+
+* Multiplayer support
+* Additional battle mechanics
+* Better mobile optimization
+* Match statistics and leaderboard
+
+---
+
+Created by Babakhalil Jalilov
