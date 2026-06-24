@@ -28,22 +28,39 @@ avatar-fight/
 🛠️ Quraşdırma və İşə Salma
 
 1. Layihəni Klonlayın
+   
 Bash
+
 git clone [https://github.com/khaliljalilov/avatar-fight.git](https://github.com/khaliljalilov/avatar-fight.git)
+
 cd avatar-fight
-2. Backend-i Başladın
+
+3. Backend-i Başladın
+   
 Bash
+
 cd chaos-backend
+
 npm install
+
 node server.js
+
 Backend http://localhost:3001 portunda işləyir.
 
-3. Frontend-i Başladın
+
+
+5. Frontend-i Başladın
+
 Bash
+
 cd ../chaos-arena
+
 npm install
+
 npm run dev
+
 Frontend brauzerdə http://localhost:5173 portunda işləyir.
+
 
 🎮 İstifadə Qaydası
 Həm backend, həm də frontend layihələrini yuxarıdakı qaydada işə salın.
