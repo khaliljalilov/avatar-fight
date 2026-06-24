@@ -20,9 +20,13 @@ https://streamable.com/so1a5z
 ## 📂 Layihə Strukturu
 
 avatar-fight/
+
 ├── chaos-arena/       # Frontend (React + Vite)
+
 └── chaos-backend/     # Backend (Node.js + Socket.io)
+
 🛠️ Quraşdırma və İşə Salma
+
 1. Layihəni Klonlayın
 Bash
 git clone [https://github.com/khaliljalilov/avatar-fight.git](https://github.com/khaliljalilov/avatar-fight.git)
